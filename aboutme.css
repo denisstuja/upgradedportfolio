@@ -1,0 +1,80 @@
+@media only screen and (max-width: 844px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Styles for tablets/iPads (768px to 1024px width) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+}
+
+/* Styles for laptops/desktops (min-width: 1024px) */
+@media (min-width: 1024px) {
+  /* Adjust styles for laptops/desktops here */
+}
+.container1{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;   
+    margin: 0 0 ;
+    color: rgb(128, 128, 128);
+}
+a{
+    text-decoration: none;
+    color: #526D82;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    margin: 0 10px;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    background-color: #F6F6F6;
+}
+.img-me{
+    margin-top: 25px;
+    height: 750px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ra
+}
+.aboutme{
+    margin-top: 25px;
+    height: 750px;
+    width: 650px;
+}
+.myphoto{
+   border-radius: 50%; 
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+.mee{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.container1{
+    margin-left: 173px;
+    margin-right: 173px;
+}
